@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EENG4990.Final_Project.EmergencyComm.MainActivity"
+    tools:deviceIds="wear"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:boxedEdges="all"
+        tools:ignore="MissingPrefix">
+        <!---->
+
+        <TextView
+            android:id="@+id/start_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:gravity="center"
+            android:text="Start Service"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/heart_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</android.support.wear.widget.BoxInsetLayout>
